@@ -6,7 +6,7 @@
 
 | Skill | Description |
 | --- | --- |
-| `skill-forge-shouffin` | Skill 脚手架生成器，用于创建、设计和验证 Agent Skill。 |
+| `skill-forge` | Skill 脚手架生成器，用于创建、设计和验证 Agent Skill。 |
 
 ## Install
 
@@ -15,7 +15,7 @@
 npx skills add zhdhnsfdx/my-skill --list
 
 # Install one skill
-npx skills add zhdhnsfdx/my-skill --skill skill-forge-shouffin
+npx skills add zhdhnsfdx/my-skill --skill skill-forge
 
 # Install all skills
 npx skills add zhdhnsfdx/my-skill --skill '*'

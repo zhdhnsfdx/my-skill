@@ -1,4 +1,4 @@
-# skill-forge-shouffin
+# skill-forge
 
 > Agent Skill 生成器 — 基于「[如何写一个好的 skill](https://linux.do/t/topic/1923706)」最佳实践，遵循三要素（Prompt / Context / Harness）、文件夹化、严格目录分离、跨工具兼容原则。
 
@@ -9,7 +9,7 @@
 ## 调用方式
 
 ```
-/skill-forge-shouffin    ← Claude Code 输入 slash command;其他 AI CLI(Gemini/Codex/Cursor/Copilot)直接描述需求即可触发
+/skill-forge    ← Claude Code 输入 slash command;其他 AI CLI(Gemini/Codex/Cursor/Copilot)直接描述需求即可触发
 ```
 
 触发词（说任意一句即可）：
@@ -35,7 +35,7 @@
 ## 文件结构
 
 ```
-skill-forge-shouffin/
+skill-forge/
 ├── SKILL.md                          # 导航中心（42行）
 ├── README.md                         # 本文件
 ├── rules/
@@ -54,7 +54,7 @@ skill-forge-shouffin/
 ```
 用户: 帮我创建一个用于代码审查的 skill，能在提交 PR 前自动检查代码质量
 
-→ skill-forge-shouffin 走 create-skill workflow:
+→ skill-forge 走 create-skill workflow:
   Step 1: 确认名称(code-review)、类型(Technique)、触发场景、目标 runtime
   Step 2: 设计 description（Use when... + 中英文触发词）
   Step 3: 决定目录结构（标准文件夹型 B）
